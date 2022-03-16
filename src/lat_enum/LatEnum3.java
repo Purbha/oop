@@ -23,6 +23,21 @@ public class LatEnum3 {
                 System.out.println("Level permainan adalah SULIT.");
                 break;                
         }
+        /*
+        levelPermainan coba[] = new levelPermainan[10];
+        System.out.println("");
+        levelPermainan coba[] = {
+            levelPermainan.MUDAH,
+            levelPermainan.SEDANG,
+            levelPermainan.MUDAH,
+            levelPermainan.MUDAH,
+            levelPermainan.MUDAH,
+            levelPermainan.MUDAH,
+        };
+        for(int i = 0; i<=5; i++){
+            System.out.println("Nilai " + i + " adalah: " + coba[i]);                  
+        }
+        */
     }
     
 }

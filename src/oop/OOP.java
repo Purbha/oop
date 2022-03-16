@@ -6,7 +6,7 @@ public class OOP{
         Kucing persia = new Kucing();
         persia.setColor("Putih");
         System.out.println("Warna kucing persia adalah: " +
-                persia.getColor());
+                persia.getColor());        
     }
     
 }

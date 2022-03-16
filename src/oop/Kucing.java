@@ -16,8 +16,8 @@ public class Kucing {
         return color;
     }
  
-    public void setColor(String value) {
-        this.color = value;
+    public void setColor(String nilai) {
+        this.color = nilai;
     }
      
 }

@@ -1,0 +1,2 @@
+lat_enum.levelPermainan
+lat_enum.LatEnum1
