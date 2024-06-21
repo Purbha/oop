@@ -6,7 +6,7 @@ public class Lingkaran extends BangunDatar{
     public Lingkaran(int r) {
         this.r = r;
     }
-    
+
     @Override
     public float Luas() {
         //Math.PI bertipe double;

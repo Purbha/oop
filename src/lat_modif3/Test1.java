@@ -10,18 +10,17 @@ public class Test1{
         mobil1.namaModel = "MOBILIO";
 /*
 Method Klakson tidak ada di class Test1, adanya di class Lat1. "mobil1.Klakson()"
-hanya bisa dijalankan klo kelasnya bisa di inheritance. Walaupun method
-"Klakson" tipenya world tapi classnya tidak bisa dibuat object.
+hanya bisa dijalankan jika kelasnya bisa di inheritance.
 */
 //mobil1.Klakson();  
 /*
-Variable merk tidak ada di class Test1, adanya di class Lat1. Walaupun attributnya
-protected yang artinya bisa diakses dalam package yang sama tapi classnya tidak bisa
-dibuat object.
+Variable merk tidak ada di class Test1, adanya di class Lat1.
 */
 //System.out.println(mobil1.merk + " " + mobil1.namaModel);
         System.out.println(mobil1.namaModel);
         Lat1 obj1 = new Lat1();   
+        System.out.println(obj1.merk + " " + mobil1.namaModel);
+        obj1.Klakson();
     }
     
 }

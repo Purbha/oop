@@ -16,7 +16,7 @@ public class lat_parameter {
         lat_parameter lp = new lat_parameter();
         lp.gasPoll();
         //Memanggil method dengan parameter
-        lat_parameter.kecepatan(200);
+        kecepatan(200);
     }
     
 }

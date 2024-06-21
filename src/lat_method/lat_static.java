@@ -4,8 +4,8 @@ public class lat_static {
     
     // Static method
     static void methodStatic() {
-        System.out.println("Method ini bisa diakses"
-                + " tanpa harus membuat object.");
+        System.out.println("Method ini bisa diakses " + 
+                "tanpa harus membuat object.");
     }
     
     // Public method

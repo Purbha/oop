@@ -9,10 +9,10 @@ public class Kucing extends Hewan{
         kucing.Tidur();
         kucing.suaraHewan();
     }
-
+    
     @Override
     public void suaraHewan() {
         System.out.println("Suara kucing adalah: Meong.. Meong..");
     }
-     
+
 }

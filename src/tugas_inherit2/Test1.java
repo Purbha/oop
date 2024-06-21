@@ -17,7 +17,7 @@ public class Test1 extends KelasLuar3{
         */
         //KelasLuar3.KelasDalam dalam = kl.new KelasDalam();
         //Buat object test1 untuk mengakses class aksesDalam
-        Test1 test1 = new Test1();
+        Test1 test1 = new Test1();   
         //Buat object dalam untuk mengakses variable b nya
         Test1.aksesDalam dalam = test1.new aksesDalam();
         int c = dalam.b + kl.a;
@@ -25,3 +25,5 @@ public class Test1 extends KelasLuar3{
     }
     
 }
+    
+

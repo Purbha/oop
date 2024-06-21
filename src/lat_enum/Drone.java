@@ -88,7 +88,7 @@ public class Drone extends Pesawat{
                     "karena drone sedang terbang.");
             return;            
         }
-        energi = 5;
+        energi = 50;
         System.out.println("Energi drone diisi sebanyak: " + energi);
     }
 
